@@ -32,7 +32,8 @@
     "menu": {
       "type": "component",
       "repeatable": true,
-      "component": "menu.menu-links"
+      "component": "menu.menu-links",
+      "required": true
     }
   }
 }
