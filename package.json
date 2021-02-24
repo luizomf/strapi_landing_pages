@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && npm i"
   },
   "devDependencies": {},
   "dependencies": {
@@ -29,8 +30,8 @@
     "uuid": "9c6cae04-d1b2-40b0-9d24-bc5229ee9d3c"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=14.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
